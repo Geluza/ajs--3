@@ -1,0 +1,43 @@
+body {
+    color: #999;
+    justify-content: center;
+    display: flex;
+    cursor: url('https://cdn.icon-icons.com/icons2/2621/PNG/512/tools_hammer_icon_156946.png'), auto;
+  }
+  
+  .points {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+  }
+
+  .losing {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+  }
+  
+  .game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 600px;
+    margin-top: 25px;
+  }
+  
+  .cell {
+    background-color: black;
+    box-sizing: border-box;
+    width: 120px;
+    height: 120px;
+    margin: 0 15px 15px;
+    border-radius: 50%;
+  }
+  
+  .cell_with_char {
+    background-image: url("https://raw.githubusercontent.com/Geluza/ahj-homeworks/master/dom/pic/goblin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+  }
