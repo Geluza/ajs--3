@@ -12,8 +12,8 @@ export default function addPoints() {
         losingCount.textContent = Number(losingCount.textContent) + 1;
       }
 
-      if(losingCount.textContent >= 5) {
-        alert("Вы проиграли!")
+      if (losingCount.textContent >= 5) {
+        alert('Вы проиграли!');
       }
     });
   }
