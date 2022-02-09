@@ -7,11 +7,11 @@ function addPoints() {
     cell[i].addEventListener('click', () => {
       if (cell[i].classList.contains('cell_with_char')) {
         pointsCount.textContent = Number(pointsCount.textContent) + 1;
-        if(Number(pointsCount.textContent) === 15) {
+        if (Number(pointsCount.textContent) === 15) {
           alert('Вы победили!');
           pointsCount.textContent = 0;
           losingCount.textContent = 0;
-      }
+        }
       } else {
         losingCount.textContent = Number(losingCount.textContent) + 1;
         if (Number(losingCount.textContent) === 5) {
@@ -23,6 +23,5 @@ function addPoints() {
     });
   }
 }
-
 
 addPoints();
