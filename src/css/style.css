@@ -2,7 +2,7 @@ body {
     color: #999;
     justify-content: center;
     display: flex;
-    cursor: url('https://cdn.icon-icons.com/icons2/2621/PNG/512/tools_hammer_icon_156946.png'), auto;
+    cursor: url(../img/tools_hammer_icon_156946.png), auto;
   }
   
   .points {
